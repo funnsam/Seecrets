@@ -7,7 +7,7 @@ function main() {
     const urlParams = new URLSearchParams(queryString);
 
     if (urlParams.has('l') == false || urlParams.get('l') == '') {
-        window.location.replace('new/');
+        window.location.replace('https://funnsam.github.io/Seecrets/new/');
     }
 
     let URLString = atob(urlParams.get('l'));
