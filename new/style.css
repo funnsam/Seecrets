@@ -1,11 +1,27 @@
 body {
-    padding-left: 25vw;
+    padding: 0 25vw;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
 
 input[type=url] {
-    width: 50em;
+    width: 100%;
+    font-size: large;
+    outline: none;
+    box-shadow: 0px 0px 50px gray;
+    border: 1px solid gray;
 }
 
-input[disabled] {
+input[type=url]:focus {
+    outline: none;
+    box-shadow: 0px 0px 50px #31e08f;
+    border: 1px solid #30d488;
+}
+
+a {
+    padding: 5px;
     color: black;
+    text-decoration: none;
+    background-color: #31e08f;
 }

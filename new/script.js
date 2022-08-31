@@ -7,6 +7,7 @@ function main() {
     const urlParams = new URLSearchParams(queryString);
 
     if (urlParams.has('url')) {
-        document.getElementById("seecrets").value = "https://seecrets.tk?l="+btoa(urlParams.get('url'));
+        document.getElementById("seecrets").innerHTML = "https://seecrets.tk?l="+btoa(urlParams.get('url'));
+        document.getElementById("seecrets").href = "https://seecrets.tk?l="+btoa(urlParams.get('url'));
     }
 }
