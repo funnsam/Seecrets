@@ -1,0 +1,11 @@
+body {
+    padding-left: 25vw;
+}
+
+input[type=url] {
+    width: 50em;
+}
+
+input[disabled] {
+    color: black;
+}
