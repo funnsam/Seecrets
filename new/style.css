@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
 body {
     padding: 0 25vw;
     background-color: black;
     color: white;
     text-align: center;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 input[type=url] {
-    width: 100%;
+    width: 90%;
     font-size: large;
     outline: none;
     box-shadow: 0px 0px 50px gray;
@@ -14,6 +17,20 @@ input[type=url] {
 }
 
 input[type=url]:focus {
+    outline: none;
+    box-shadow: 0px 0px 50px #31e08f;
+    border: 1px solid #30d488;
+}
+
+input[type=submit] {
+    width: 9%;
+    font-size: large;
+    outline: none;
+    box-shadow: 0px 0px 50px gray;
+    border: 1px solid gray;
+}
+
+input[type=submit]:focus {
     outline: none;
     box-shadow: 0px 0px 50px #31e08f;
     border: 1px solid #30d488;
