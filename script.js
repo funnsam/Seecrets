@@ -7,7 +7,7 @@ function main() {
     const urlParams = new URLSearchParams(queryString);
 
     if (urlParams.has('l') == false || urlParams.get('l') == '') {
-        location.replace('https://seecrets.tk/new');
+        window.location.replace('./new');
         return;
     }
 
